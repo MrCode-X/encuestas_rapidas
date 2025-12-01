@@ -4,7 +4,7 @@ from django.urls import reverse_lazy
 from django.db.models import Count
 from .models import Encuesta, Pregunta, Respuesta, Participante
 from .forms import EncuestaForm, ParticipanteForm
-
+# 
 class EncuestaListView(ListView):
     model = Encuesta
     template_name = 'encuestas/encuesta_list.html'
